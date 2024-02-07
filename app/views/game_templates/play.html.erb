@@ -1,0 +1,9 @@
+<%if @our_move != "rock" && @our_move != "paper" && @our_move != "scissors"%>
+  <h2>Invalid move</h2>
+<%else%>
+<h2>We Played <%= @our_move %> </h2>
+<%end%>
+<h2>They played <%= @comp_move%></h2>
+<h2>We <%= @outcome%></h2>
+
+<a href="/">Rules</a>
